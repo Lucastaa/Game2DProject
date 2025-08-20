@@ -1,0 +1,10 @@
+*.bhc
+*.meta
+*.mvfrm
+*.rsp
+/New2DGame/Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/hostlin
+/New2DGame/Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/hostmac
+/New2DGame/Library
+/New2DGame/.vs/New2DGame/copilot-chat
+/New2DGame/Assets/AllAsset/Doctor_Pack02
+/New2DGame/Assets/AllAsset/Pet Cats pack
