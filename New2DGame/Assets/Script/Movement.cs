@@ -3,7 +3,6 @@ using TMPro;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private TMP_Text ScoreGO;
     [SerializeField] private TMP_Text Scoring;
     public float speed = 5.0f; // Speed of the player movement
     public int direction = 1; // Direction of the player, -1 for left, 1 for right
@@ -118,7 +117,7 @@ public class Movement : MonoBehaviour
         {
             Debug.Log("Coin");
             coin += 1;
-            Scoring.text = "" + coin;
+            Scoring.text = "Score:" + coin;
             Destroy(collision.gameObject);
             //Coin.Play();
         }
